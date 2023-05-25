@@ -17,7 +17,7 @@ namespace For_better_understanding_of_class_overwriting
 
         public string? Combination { private get; set; }
 
-        protected void ReturnContents(string safecontent, SafeOwner owner)
+        protected virtual void ReturnContents(string safecontent, SafeOwner owner)
         {
             owner.ReciveContents(safecontent);
         }

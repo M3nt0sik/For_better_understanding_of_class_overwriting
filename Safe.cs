@@ -8,7 +8,7 @@ namespace For_better_understanding_of_class_overwriting
 {
     internal class Safe
     {
-        private string content = "cenne klejnpty";
+        private string content = "cenne klejnoty";
         private string saveCombination = "12345";
 
         public string Open(string combination)

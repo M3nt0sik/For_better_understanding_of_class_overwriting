@@ -10,9 +10,9 @@ namespace For_better_understanding_of_class_overwriting
     {
         private string stolenJewels;
 
-        protected void ReturnContents(string safeContents, SafeOwner owner)
+        protected override void ReturnContents(string safecontent, SafeOwner owner)
         {
-            stolenJewels = safeContents;
+            stolenJewels = safecontent;
             Console.WriteLine($"Kradne oszczednosci! Ukradlem {stolenJewels}");
 
         }

@@ -8,7 +8,7 @@ namespace For_better_understanding_of_class_overwriting
 {
     internal class Locksmith
     {
-        public void OpenSave(Safe safe)
+        public void OpenSafe(Safe safe, SafeOwner owner)
         {
             safe.PickLock(this);
             string safeContents = safe.Open(Combination);
